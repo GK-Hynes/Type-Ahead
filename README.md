@@ -14,9 +14,9 @@ This 'blob' doesn't know what kind of data it is. Use `blob.json().then()` to re
 
 To get the data into the empty `cities` array you could set `cities` as a `let` variable.
 
-If you want to keep cities as a `const` variable you can spread the data into it: `cities.push(...data)`.
+Alternatively, if you want to keep cities as a `const` variable you can spread the data into it: `cities.push(...data)`.
 
-Call `filter` on the cities array and use a regex to check if the city/state matches the search. (You need this syntax toput a variable into a regular expression.)
+Call `filter` on the cities array and use a regex to check if the city/state matches the search. (You need the syntax below to put a variable into a regular expression.)
 
 ```js
 function findMatches(wordToMatch, cities) {
@@ -28,7 +28,7 @@ function findMatches(wordToMatch, cities) {
 }
 ```
 
-Select the search box and suggestions, listen for a change event/keyup and run the `displayMatches` function.
+Select the search box and suggestions, listen for a change event or keyup and run the `displayMatches` function.
 
 Use `map` to loop over the returned array and return the html you want to display. (`map` will return an array so you can call `.join('')` on the end to return a string.)
 
