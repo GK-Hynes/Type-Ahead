@@ -1,4 +1,4 @@
-# Type Ahead
+# [Type Ahead](https://gk-hynes.github.io/type-ahead/)
 
 A page created to parse and display an array of US cities. Built for Wes Bos' [JavaScript 30](https://javascript30.com/) course.
 
